@@ -14,11 +14,8 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-}
-
-.container .imageContainer {
-    position: absolute;
-    bottom: 55%;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container .imageContainer img {
@@ -28,8 +25,6 @@ body {
 }
 
 .container .textContainer {
-    position: absolute;
-    bottom: 30%;
     text-align: center;
 }
 

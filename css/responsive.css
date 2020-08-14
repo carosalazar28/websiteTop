@@ -1,9 +1,3 @@
-@media only screen and (max-width: 1024px) {
-    .container .textContainer { 
-        bottom: 20%;
-    }
-}
-
 @media only screen and (max-width: 425px) {
     .container .textContainer h1 {
         font-size: 2.5rem;
