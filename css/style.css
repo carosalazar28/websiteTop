@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    font-size: 10px;
+    color:#f9f5f5;
+    background-color: #151515;
+}
+
+.container {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container .imageContainer {
+    position: absolute;
+    bottom: 55%;
+}
+
+.container .imageContainer img {
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.container .textContainer {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+}
+
+.container .textContainer h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container .textContainer h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+
