@@ -8,8 +8,6 @@ Se implemento HTML y CSS para el desarrollo de la pagina, dentro de las propieda
 
 Display - flex
 
-
-Position -  absolute/relative
-
+Background Image
 
 Unidades de medidas - rem
